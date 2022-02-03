@@ -1,8 +1,12 @@
 import React from 'react'
+import Navigation from '../components/navigation'
 
 function Transaction() {
     return (
-        <p>This is the transaction page.</p>
+        <div className='transaction'>
+            <Navigation />
+            This is the transactions page.
+        </div>
     )
 }
 

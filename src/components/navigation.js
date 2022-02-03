@@ -1,16 +1,23 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
-import Home from '../pages/home';
-import Transaction from '../pages/transaction';
-
 function Navigation() {
     return (
         <Navbar className="navbar">
             <Container>
-            <Navbar.Brand component={Home} style={{color: "#283618"}}>MyBanking</Navbar.Brand>
+            <Navbar.Brand href='/home'>
+                <img
+                src={require('../assets/logo.png')}
+                width='40'
+                height='40'
+                className='d-inline-block'
+                alt="bank_logo"
+                />{' '}
+                Banco del Dragones
+            </Navbar.Brand>
             <Nav className="nav_link">
-                <Nav.Link component={Transaction}>Transactions</Nav.Link>
+                <Nav.Link href='/profile'>Profile</Nav.Link>
+                <Nav.Link href='/transaction'>Transactions</Nav.Link>
                 <Nav.Link href="#logout">Logout</Nav.Link>
             </Nav>
             </Container>

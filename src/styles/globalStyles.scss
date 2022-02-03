@@ -15,7 +15,7 @@ $LiverDogs: #BC6C25;
   background-color: $DeepChampagne;
   font-size: 18px;
   color: $KombuGreen;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .nav_link{
@@ -28,6 +28,7 @@ $LiverDogs: #BC6C25;
   background-color: $LiverDogs;
   border: $Bronze;
   margin-top: 15px;
+  color: white;
 
   &:hover {
       background-color: $DeepChampagne;

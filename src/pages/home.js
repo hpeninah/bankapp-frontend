@@ -8,13 +8,13 @@ function Home() {
     <div className="Home">
       <Navigation />
       <Container className="account_container">
-        <Button className="add_button" type="submit">
+        <Button  variant="light" className="add_button" type="submit">
           Add Account
         </Button>
         <h4 className="home_title">Here are your accounts:</h4>
         <Card style={{ backgroundColor: "#93987C" }}>
           <Card.Body className="account_card_body">
-            <Card.Title className="account_item" style={{ fontSize: "16px" }}>
+            <Card.Title className="account_item" style={{ fontSize: "16px", color: '#283618'}}>
               Item Account Number
             </Card.Title>
             <Card.Text className="account_balance">Balance: $</Card.Text>

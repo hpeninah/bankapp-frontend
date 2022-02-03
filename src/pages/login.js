@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Card, Form, Button} from 'react-bootstrap';
+import {Card, Form, Button, Image} from 'react-bootstrap';
 import { useNavigate } from 'react-router';
 import '../styles/auth.scss';
 import axios from '../axiosConfig';
@@ -24,6 +24,7 @@ function Login() {
     return (
         <Card className="auth_card mx-5 my-5">
             <Card.Body>
+                <Image className="logo" src={require('../assets/logo_name.png')} alt='bank_logo' />
                 <Card.Title className="auth_title">Login</Card.Title>
                 <Card.Text>
                     <Form onSubmit={handleLogin}>
@@ -48,7 +49,7 @@ function Login() {
                                 onChange={(e) => setPassword(e.target.value)}
                             />
                         </Form.Group>
-                        <Button className="auth_button" type="submit">
+                        <Button variant="light" className="auth_button" type="submit">
                             Login
                         </Button>
                     </Form>
