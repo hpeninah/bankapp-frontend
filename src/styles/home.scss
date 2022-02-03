@@ -1,0 +1,29 @@
+@import './globalStyles.scss';
+
+.home_title{
+    color:$DarkOliveGreen;
+    border: 1px solid $DeepChampagne;
+    background-color: $DeepChampagne;
+    margin: 15px;
+    border-radius: 10px;
+}
+.account_container{
+    background-color: $DarkOliveGreen;
+    margin:15px;
+    color:White;
+}
+
+.account_card_body{
+    background-color: $Artichoke;
+    border-radius: 10px;
+}
+
+.account_item{
+    font-size: 16px;
+    text-align: start;
+}
+
+.account_balance{
+    text-align: end;
+}
+

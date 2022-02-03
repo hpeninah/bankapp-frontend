@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+
+//Colors
+$DarkOliveGreen: #606C38;
+$ArmyGreen: #445128;
+$KombuGreen: #283618;
+$Artichoke: #93987C;
+$Cornsilk: #FEFAE0;
+$DeepChampagne: #EECE9F;
+$Fawn: #DDA15E;
+$Bronze: #CD8742;
+$LiverDogs: #BC6C25;
+
+.navbar{
+  background-color: $DeepChampagne;
+  font-size: 18px;
+  color: $KombuGreen;
+  font-weight: bold;
+}
+
+.nav_link{
+  font-size: 16px;
+  font-weight: lighter;
+  justify-content: end;
+}
+
+.add_button{
+  background-color: $LiverDogs;
+  border: $Bronze;
+  margin-top: 15px;
+
+  &:hover {
+      background-color: $DeepChampagne;
+      border: $Bronze;
+      color: $ArmyGreen;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $DarkOliveGreen;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
