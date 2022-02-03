@@ -1,0 +1,28 @@
+@import './globalStyles.scss';
+
+.auth_card{
+    background-color: $Cornsilk;
+}
+
+.auth_title{
+    color: $ArmyGreen;
+    font-size: 36px;
+    font-weight: 400px;
+    padding-block: 20px;
+}
+
+.auth_label{
+    color: $ArmyGreen;
+    font-size: 16px;
+}
+
+.auth_button{
+    background-color: $LiverDogs;
+    border: $Bronze;
+
+    &:hover {
+        background-color: $DeepChampagne;
+        border: $Bronze;
+        color: $ArmyGreen;
+    }
+}

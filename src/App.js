@@ -1,10 +1,12 @@
-import Login from './pages/login';
-import './styles/App.css';
+import Navigation from './components/navigation';
+import Routing from './components/routing';
+import Transaction from './pages/transaction';
+import './styles/App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Routing />
     </div>
   );
 }
