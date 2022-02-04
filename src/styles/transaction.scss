@@ -1,0 +1,42 @@
+@import './globalStyles.scss';
+
+.transaction {
+    background-color: $DarkOliveGreen;
+}
+
+.transaction_nav{
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    padding:20px;
+}
+
+.transaction_nav_tab_inactive{
+    background-color: $LiverDogs;
+    margin: 2px;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 10px;
+
+  
+    &:hover {
+        background-color: $DeepChampagne;
+        border: 1px solid $Bronze;
+        color: $ArmyGreen;
+    }
+}
+
+.transaction_nav_tab{
+    background-color: $DeepChampagne;
+    margin: 2px;
+    color: $ArmyGreen;
+    padding: 10px 24px;
+    border-radius: 10px;
+
+  
+    &:hover {
+        background-color: $LiverDogs;
+        border: 1px solid $Bronze;
+        color: white;
+    }
+}

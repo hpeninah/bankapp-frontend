@@ -1,21 +1,29 @@
 @import './globalStyles.scss';
 
 .home_title{
-    color:$DarkOliveGreen;
-    border: 1px solid $DeepChampagne;
+    color:$KombuGreen;
     background-color: $DeepChampagne;
-    margin: 15px;
+    margin: auto;
     border-radius: 10px;
+    max-width: 700px;
 }
 .account_container{
     background-color: $DarkOliveGreen;
     margin:15px;
     color:White;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.account_card {
+    max-width: 700px;
+    margin: auto;
 }
 
 .account_card_body{
     background-color: $Artichoke;
     border-radius: 10px;
+    max-width: 700px;
 }
 
 .account_item{

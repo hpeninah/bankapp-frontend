@@ -22,7 +22,7 @@ function Login() {
         // }
     }
     return (
-        <Card className="auth_card mx-5 my-5">
+        <Card className="auth_card mx-auto my-5" style={{backgroundColor: "#EECE9F", margin: "auto"}}>
             <Card.Body>
                 <Image className="logo" src={require('../assets/logo_name.png')} alt='bank_logo' />
                 <Card.Title className="auth_title">Login</Card.Title>

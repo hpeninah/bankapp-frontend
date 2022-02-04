@@ -1,0 +1,19 @@
+@import './globalStyles.scss';
+
+.transaction_page{
+    justify-content: center;
+    margin-top: 100px;
+    margin-inline: 40px;
+}
+
+.transaction_card {
+    padding: 10px;
+    background-color: $Artichoke;
+    max-width: 700px;
+    margin: auto;
+}
+
+.transaction_card_title {
+    font-weight: 600;
+    color: $KombuGreen
+}

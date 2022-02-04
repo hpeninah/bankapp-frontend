@@ -6,20 +6,21 @@ import "../styles/home.scss";
 function Home() {
   return (
     <div className="Home">
-      <Navigation />
-      <Container className="account_container">
-        <Button  variant="light" className="add_button" type="submit">
+      <Navigation />        
+      <Button  variant="light" className="add_button" type="submit">
           Add Account
-        </Button>
-        <h4 className="home_title">Here are your accounts:</h4>
-        <Card style={{ backgroundColor: "#93987C" }}>
+      </Button>
+      <Container className="account_container">
+        <h4 className="home_title mb-4">Here are your accounts:</h4>
+        <Card className="account_card" style={{backgroundColor: "#93987C"}}>
           <Card.Body className="account_card_body">
             <Card.Title className="account_item" style={{ fontSize: "16px", color: '#283618'}}>
               Item Account Number
             </Card.Title>
             <Card.Text className="account_balance">Balance: $</Card.Text>
           </Card.Body>
-        </Card>
+        </Card>        
+
       </Container>
     </div>
   );

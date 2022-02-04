@@ -1,7 +1,8 @@
 @import './globalStyles.scss';
 
 .auth_card{
-    background-color: $Cornsilk;
+    background-color: $DeepChampagne;
+    max-width: 500px;
 }
 
 .auth_title{
@@ -14,24 +15,6 @@
 .auth_label{
     color: $ArmyGreen;
     font-size: 16px;
-}
-
-.auth_button{
-    background-color: $LiverDogs;
-    border: $Bronze;
-    color: white;
-
-    &:hover {
-        background-color: $DeepChampagne;
-        border: $Bronze;
-        color: $ArmyGreen;
-    }
-
-    &:active {
-        background-color: $DeepChampagne;
-        border: $Bronze;
-        color: $ArmyGreen;
-    }
 }
 
 .logo {

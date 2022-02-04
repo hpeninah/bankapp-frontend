@@ -15,7 +15,7 @@ $LiverDogs: #BC6C25;
   background-color: $DeepChampagne;
   font-size: 18px;
   color: $KombuGreen;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav_link{
@@ -27,8 +27,37 @@ $LiverDogs: #BC6C25;
 .add_button{
   background-color: $LiverDogs;
   border: $Bronze;
-  margin-top: 15px;
+  margin: 20px;
   color: white;
+  position: absolute;
+  right: 40px;
+
+  &:hover {
+      background-color: $DeepChampagne;
+      border: $Bronze;
+      color: $ArmyGreen;
+  }
+}
+
+.auth_button{
+  background-color: $LiverDogs;
+  border: $Bronze;
+  color: white;
+
+  &:hover {
+      background-color: $DeepChampagne;
+      border: $Bronze;
+      color: $ArmyGreen;
+  }
+}
+
+.transaction_button{
+  background-color: $ArmyGreen;
+  border: $Bronze;
+  color: $DeepChampagne;
+  font-weight: 500;
+  max-width: 150px;
+  margin: auto;
 
   &:hover {
       background-color: $DeepChampagne;
@@ -39,6 +68,7 @@ $LiverDogs: #BC6C25;
 
 body {
   margin: 0;
+  font-weight: 500;
   font-family: -apple-system, 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

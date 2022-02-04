@@ -5,7 +5,7 @@ function Navigation() {
     return (
         <Navbar className="navbar">
             <Container>
-            <Navbar.Brand href='/home'>
+            <Navbar.Brand href='/home' style={{color: "#283618"}}>
                 <img
                 src={require('../assets/logo.png')}
                 width='40'
@@ -16,7 +16,7 @@ function Navigation() {
                 Banco del Dragones
             </Navbar.Brand>
             <Nav className="nav_link">
-                <Nav.Link href='/profile'>Profile</Nav.Link>
+                <Nav.Link href='/home'>Profile</Nav.Link>
                 <Nav.Link href='/transaction'>Transactions</Nav.Link>
                 <Nav.Link href="#logout">Logout</Nav.Link>
             </Nav>
