@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Banco Del Dragones
+
+The backend for this project is in this repository: https://github.com/hpeninah/bankapp
+
+This is a banking management application that allows users to login as either a user or administrator. Users can withdraw, transfer, and deposit funds to any account that they have access to. Users are also able to edit their profiles by adding their information.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
